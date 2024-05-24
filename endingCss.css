@@ -1,0 +1,46 @@
+*{
+    margin : 0 ;
+    border: 0;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.finalScore{
+    color: black;
+    font-size: 300%;
+}
+.my-button {
+    background-color:white;
+    font-size: 150%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+.my-button:hover{
+    background-color: black;
+}
+
+a:hover{
+    background-color: black;
+}
+
+
+.footer{
+    margin-top: 20%;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: aliceblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8%;
+    font-size: 1.2rem;
+}
+
+#score-num{
+    font-size: 3rem;
+    color: #56a5eb;
+}
+
+
+.question-num{
+    margin-left: 15%;
+}
+
+.score{
+    margin-right: 15%;
+}
+
+.progressBar {
+    width: 20%;
+    height: 40px;
+    margin-left: 8%;
+    background-color: white;
+    border-color: #56a5eb;
+    border-style: double;
+    margin-bottom: 1rem;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #56a5eb;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+.game{
+    margin-left:15%;
+    margin-right: 15%;
+
+}
+h1{
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom:2% ;
+}
+
+.choices{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    font-size: 3rem;
+    margin-top: 0.5%;
+    border-radius:5% 0 0 0;
+}
+
+.text:hover{
+    background-color: lightblue;
+}
+
+.alphabet{
+    background-color: #56a5eb;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5%;
+    color: white;
+}
+
+.text 
+{
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: #28a745;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
